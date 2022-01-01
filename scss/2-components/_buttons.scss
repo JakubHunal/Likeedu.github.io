@@ -1,0 +1,19 @@
+.button {
+    a {
+      padding: 15px 40px;
+      border-radius: 30px;
+      background-color: $gradientColor;
+      color: $white;
+      border: 2px solid transparent;
+      @include transition();
+      @include mobile(){
+        padding: 12px 35px;
+      }
+      &:hover {
+        border: 2px solid $gradientColor;
+        background-color: $white;
+        color: $black;
+        @include transition();
+      }
+    }
+  }

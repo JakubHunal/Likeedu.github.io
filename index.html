@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
+    <title>Likeedu</title>
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="img/whiteLogo.svg" alt="" />
+        </a>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul>
+            <li>
+                <a onclick="hideNavBar()" href="courses.html">Kurzy</a>
+            </li>
+            <li>
+                <a onclick="hideNavBar()" href="index.html#aboutUs">O nás</a>
+            </li>
+            <li>
+                <a onclick="hideNavBar()" href="index.html#contact">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Landing-->
+    <section id="landing">
+        <main>
+            <div class="left">
+                <h1>Chceš se naučit programovat a tvořit webové stránky?</h1>
+                <div class="button">
+                    <a href="courses.html">Začít se učit</a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="img/iMac24.png" alt="" />
+            </div>
+        </main>
+    </section>
+
+    <!--WhyCode-->
+    <section id="whyCode">
+        <main>
+            <h2>Proč začít programovat?</h2>
+            <p>
+                Neztrácej čas a začni se učit teď hned. Nečekej na to, až ti uteče budoucnost! A investuj do sebe!
+            </p>
+            <div class="boxes">
+                <div class="box">
+                    <h3>Zažiješ spoustu zábavy</h3>
+                    <div class="circle">
+                        <div class="emoji">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Můžeš být velmi kreativní</h3>
+                    <div class="circle">
+                        <div class="emoji">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Najdeš si jednoduše práci</h3>
+                    <div class="circle">
+                        <div class="emoji">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!--AboutUs-->
+    <section id="aboutUs">
+        <main>
+            <h2>Něco málo o nás</h2>
+            <p>Jsme první český vzdělávací IT portál, co má smysl!</p>
+            <div class="container">
+                <div class="phone">
+                    <img src="img/iphone.png" alt="" />
+                </div>
+                <div class="text">
+                    <p class="bigText">
+                        Jsme dva studenti IT, kteří se rozhodli přiblížit tento obor srozumitelnou a zábavnou formou. Kurzy jsou i pro úplné začátečníky, takže se nemusíte bát, že by jste je nezvládli. Všechny naše kurzy jsou zdarma.
+                    </p>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+        <main>
+            <h2>Máš nějakou otázku nebo potřebuješ s něčím pomoci?</h2>
+            <p>Určite nám napiš!</p>
+            <div class="contactButton">
+                <a href="mailto:hunaljak@gmail.com">
+                    <div class="icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                </a>
+            </div>
+        </main>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p class="smallText footerPadding">&copy; 2021 Likeedu</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/js.js"></script>
+</body>
+
+</html>

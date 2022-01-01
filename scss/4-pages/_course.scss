@@ -1,0 +1,90 @@
+#course {
+    .container {
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        @include tablet() {
+            margin-top: 80px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        aside {
+            width: 300px;
+            height: calc(100vh - 180px);
+            overflow-y: scroll;
+            position: sticky;
+            top: 100px;
+            background-color: $whiteSmoke;
+            padding: 40px;
+            @include tablet() {
+                width: 100%;
+                min-height: max-content;
+                text-align: center;
+                padding: 40px 0;
+                position: static;
+                height: 100px;
+            }
+            h2 {
+                font-weight: bold;
+            }
+            ul {
+                margin-top: 20px;
+                li {
+                    margin-top: 20px;
+                    padding: 10px;
+                    a {
+                        font-size: 1.2rem;
+                        line-height: 1.3em;
+                        position: relative;
+                        @include mobile() {
+                            font-size: 1rem;
+                        }
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            transform: scaleX(0);
+                            height: 3px;
+                            border-radius: 5px;
+                            bottom: -5px;
+                            left: 0;
+                            background-color: $gradientColor;
+                            transform-origin: bottom right;
+                            transition: transform 0.25s ease-out;
+                        }
+                        &:hover:after {
+                            transform: scaleX(1);
+                            transform-origin: bottom left;
+                        }
+                    }
+                    .openedLink {
+                        position: relative;
+                    }
+                    .dot {
+                        position: absolute;
+                        width: 10px;
+                        height: 10px;
+                        background-color: $gradientColor;
+                        border-radius: 50%;
+                        left: -15px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+        main {
+            width: 100%;
+            padding: 50px;
+            background-color: white;
+            @include tablet() {
+                padding: 50px 0px;
+                width: 70%;
+                text-align: center;
+            }
+            h1 {
+                font-weight: bold;
+            }
+        }
+    }
+}

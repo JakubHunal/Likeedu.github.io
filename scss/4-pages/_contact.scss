@@ -1,0 +1,82 @@
+#contact {
+  @include flexCenter();
+  background: $gradient;
+  main {
+    margin: 50px 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    @include tablet() {
+      justify-content: center;
+    }
+    h2 {
+      width: 45%;
+      color: $white;
+      @include tablet() {
+        @include responsiveWidth();
+        text-align: center;
+      }
+    }
+    p {
+      width: 100%;
+      margin-top: 20px;
+      color: $black;
+      font-size: 1.75rem;
+      font-weight: 500;
+      @include tablet() {
+        text-align: center;
+      }
+      @include mobile() {
+        font-size: 1rem;
+      }
+    }
+    .contactButton {
+      @include tablet() {
+        margin-top: 100px;
+        width: 100%;
+        @include flexCenter();
+      }
+      a {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: $white;
+        color: $darkBlue;
+        position: absolute;
+        top: 50%;
+        right: 300px;
+        transform: translateY(-50%);
+        font-size: 2.5rem;
+        @include transition();
+        .icon {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          @include transition();
+          i {
+            position: absolute;
+            top: 50%;
+            left: 47%;
+            transform: translate(-50%, -50%);
+          }
+          &:hover {
+            @include transition();
+            transform: rotate(360deg);
+          }
+        }
+        &:hover {
+          @include transition();
+          background-color: $black;
+          color: $white;
+        }
+
+        @include tablet() {
+          position: static;
+          width: 80px;
+          height: 80px;
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+//This file is only for importing other scss files
+
+/*0-reset*/
+@import "0-reset/reset";
+
+/*1-helpers*/
+@import "1-helpers/breakpoints";
+@import "1-helpers/colors";
+@import "1-helpers/mixins";
+@import "1-helpers/typography";
+
+/*2-components*/
+@import "2-components/buttons";
+
+
+/*3-layout*/
+@import "3-layout/footer";
+@import "3-layout/navigation";
+@import "3-layout/main";
+@import "3-layout/courseBlocks";
+
+/*4-pages*/
+@import "4-pages/landing";
+@import "4-pages/whyCode";
+@import "4-pages/aboutUs";
+@import "4-pages/contact";
+@import "4-pages/courses";
+@import "4-pages/course";
+
+/*Primary settings*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: $black;
+}
+::selection {
+	color: $white;
+	background-color: $gradientColor;
+}

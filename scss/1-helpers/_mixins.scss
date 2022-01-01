@@ -1,0 +1,30 @@
+@mixin flexCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin sectionHeight {
+  margin-top: 100px;
+  min-height: calc(100vh - 100px);
+}
+
+@mixin underHeadingText {
+  color: $grey;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+@mixin transition {
+  transition: all 0.5s ease;
+}
+@mixin responsiveWidth {
+  width: 70%;
+}
+@mixin marginCenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+

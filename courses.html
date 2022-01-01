@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
+    <title>Likeedu</title>
+</head>
+
+<body id="courses">
+    <!--Navigation-->
+    <nav>
+        <a href="index.html" class="logo"><img src="img/whiteLogo.svg" alt="" /></a>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul>
+            <li>
+                <a onclick="hideNavBar()" href="courses.html">Kurzy</a>
+            </li>
+            <li>
+                <a onclick="hideNavBar()" href="index.html#aboutUs">O nás</a>
+            </li>
+            <li>
+                <a onclick="hideNavBar()" href="index.html#contact">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Heading section-->
+    <section id="top">
+        <h1>Přehled kurzů</h1>
+    </section>
+
+    <div class="element"></div>
+
+    <!--Courses section-->
+    <section id="bottom">
+        <main>
+            <div class="boxes">
+                <div class="box">
+                    <div class="circle">
+                        <div class="icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="text">
+                            HTML je značovací jazyk, který je určený pro tvorbu webových stránek
+                        </p>
+                        <div class="button">
+                            <a href="html-course/html_entrance.html">Začít se učit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="circle">
+                        <div class="icon"><i class="fab fa-css3-alt"></i></div>
+                    </div>
+                    <div class="content">
+                        <p class="text">
+                            CSS jsou kaskádové styly, které jsou určené k úpravě designu webových stránek
+                        </p>
+                        <div class="button">
+                            <a href="css-course/css_entrance.html">Začít se učit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box middleBox">
+                    <div class="circle">
+                        <div class="icon">
+                            <span class="iconify" data-icon="teenyicons:c-sharp-solid"></span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="text">
+                            C# je programovací jazyk, který je určený k vývoji programů a aplikací
+                        </p>
+                        <div class="button">
+                            <a href="c-course/c_entrance.html">Začít se učit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p class="smallText footerPadding">&copy; 2021 Likeedu</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/js.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</body>
+
+</html>
