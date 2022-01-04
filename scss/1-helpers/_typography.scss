@@ -2,8 +2,7 @@
 
 /*Body text*/
 
-p,
-a {
+p {
     font-size: 1.5rem;
     line-height: 1.3em;
     @include mobile() {
@@ -14,7 +13,8 @@ a {
 
 /*Small text*/
 
-.smallText {
+.smallText,
+a {
     font-size: 1rem;
     line-height: 1.3em;
     @include mobile() {
