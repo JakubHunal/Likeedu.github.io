@@ -241,8 +241,6 @@ nav ul li a {
   color: white;
   display: inline-block;
   position: relative;
-  font-size: 1rem;
-  line-height: 1.3em;
 }
 
 @media (max-width: 600px) {
