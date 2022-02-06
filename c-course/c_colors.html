@@ -62,79 +62,39 @@
                 </li>
                 <li>
                     <a href="c_colors.html" class="openedLink">Barvy a jejich změna
-              <div class="dot"></div>
-            </a>
+                        <div class="dot"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="c_conditions.html">Podmínky</a>
                 </li>
             </ul>
         </aside>
         <main>
             <h1>Barvy a jejich změna</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <div class="list">
-                <div class="heading">
-                    Toto jsou základní jazyky, které se používají na webech:
-                </div>
-                <ul>
-                    <li>
-                        <span class="bold">Html:</span> je to značkovací jazyk, používáme ho k tvorbě webových stránek
-                    </li>
-                    <li>
-                        <span class="bold">Css:</span> jsou to kaskádové styly, používáme je k úpravě webových stránek
-                    </li>
-                    <li>
-                        <span class="bold">C#:</span> je to programovací jazyk pro tvorbu aplikací
-                    </li>
-                    <li>
-                        <span class="bold">Php:</span> je to programovací jazyk používaný na webech
-                    </li>
-                </ul>
-            </div>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                V konzoli můžeme měnit barvy pomocí dvou vlastností – ForegroundColor pro změnu barvy písma a
+                BackgroundColor pro změnu barvy pozadí písma. Příkaz pro změnu barvy začne, jako většina příkazů, volání
+                konzole – tedy „Console“. Dále napíšeme tečku a poté buď ForegroundColor nebo BackgroundColor podle
+                toho, barvu čeho chceme právě změnit. Poté napíšeme rovná se, protože chceme změnit hodnotu proměnné a
+                skupinu, ze které chceme hodnotu vzít – v tomto případě „ConsoleColor“. Poté dáme opět tečku a napíšeme
+                barvu (například Red – červená). Vše viz ukázka.
             </p>
             <div class="showOfCode">
-                <pre><code>.container {
-    width: 100%; //toto je šířka zařízení, pro které je to dělané
-    margin-top: 100px;
-    display: flex;
-    @include tablet() {
-    margin-top: 80px;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
-}</code></pre>
+                <pre><code>static void Main(string[] args)
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.Red;
+    }</code></pre>
             </div>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Existuje také příkaz „Console.ResetColor();“, který změní hodnotu ForegroundColor a BackgroundColor na
+                původní.
             </p>
+            <h2 class="heading">Cvičení</h2>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Vytvořte konzolový program, kde na prvním řádku bude zelené písmo a normální pozadí, na druhém řádku
+                bude normální písmo a červené pozadí a na třetím řádku bude bílé písmo na černém pozadí.
             </p>
             <div class="quizVideo">
                 <div class="quiz">

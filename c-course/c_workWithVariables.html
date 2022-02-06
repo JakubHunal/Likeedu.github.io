@@ -41,7 +41,7 @@
             <ul>
                 <li>
                     <a href="c_entrance.html">Úvod
-            </a>
+                    </a>
                 </li>
                 <li>
                     <a href="c_environment.html">Prostředí</a>
@@ -67,77 +67,42 @@
                 <li>
                     <a href="c_colors.html">Barvy a jejich změna</a>
                 </li>
-
+                <li>
+                    <a href="c_conditions.html">Podmínky</a>
+                </li>
             </ul>
         </aside>
         <main>
             <h1>Práce s proměnnými</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <div class="list">
-                <div class="heading">
-                    Toto jsou základní jazyky, které se používají na webech:
-                </div>
-                <ul>
-                    <li>
-                        <span class="bold">Html:</span> je to značkovací jazyk, používáme ho k tvorbě webových stránek
-                    </li>
-                    <li>
-                        <span class="bold">Css:</span> jsou to kaskádové styly, používáme je k úpravě webových stránek
-                    </li>
-                    <li>
-                        <span class="bold">C#:</span> je to programovací jazyk pro tvorbu aplikací
-                    </li>
-                    <li>
-                        <span class="bold">Php:</span> je to programovací jazyk používaný na webech
-                    </li>
-                </ul>
-            </div>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                S různými druhů proměnných se dá pracovat různě. Dvě proměnné se mohou například spojit, porovnat nebo
+                odečíst. Když chceme například sečíst dvě proměnné typu int, tak si vytvoříme novou proměnou typu int s
+                jiným názvem a za znak rovná se napíšeme názvy obou int a mezi ně znak „+“ – tím je sečteme. Příkaz
+                ukončíme samozřejmě středníkem. Pokud tedy byla hodnota jedné proměnné typu int 3 a druhá 5, tak
+                výsledná hodnota nově vytvořeného int bude 8. Int můžeme libovolně kombinovat například odečítat znakem
+                „-“, násobit znakem „*“ nebo dělit znakem „/“. Matematických znaků i proměnných můžeme takto použít
+                samozřejmě více. U proměnné typu double funguje vše stejně jako u typu int, platí vše, co je vysvětleno
+                výše. Viz příklad.
             </p>
             <div class="showOfCode">
-                <pre><code>.container {
-    width: 100%; //toto je šířka zařízení, pro které je to dělané
-    margin-top: 100px;
-    display: flex;
-    @include tablet() {
-    margin-top: 80px;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
-}</code></pre>
+                <pre><code>static void Main(string[] args)
+    {
+        int i1 = 12;
+        int i2 = 4;
+        int i3 = i1/i2;
+        //hodnota je poté --> i3 = 3
+    }</code></pre>
             </div>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Spojovat se můžeme také proměnné typu string. Můžeme je sčíatt stejně jako proměnné typu int, tedy
+                vytvořit nový string a spojit do něj stávající stringy. Další matematické operace s typem string
+                provádět nemůžeme.
             </p>
+            <h2 class="heading">Cvičení</h2>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Vytvořte tři stringy se třemi různými slovy, která poté dají dohromady větu. Poté všechna slova spojte
+                do věty
+                vytvořením nové proměnné typu string a tu následně vypište na konzoli.
             </p>
             <div class="quizVideo">
                 <div class="quiz">

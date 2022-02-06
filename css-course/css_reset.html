@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.png" />
+    <title>Likeedu</title>
+  </head>
+
+  <body id="course" class="cssCourse">
+    <!--Navigation-->
+    <nav>
+      <a href="../index.html" class="logo"
+        ><img src="../img/whiteLogo.svg" alt=""
+      /></a>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul>
+        <li>
+          <a onclick="hideNavBar()" href="../courses.html">Kurzy</a>
+        </li>
+        <li>
+          <a onclick="hideNavBar()" href="../index.html#aboutUs">O nás</a>
+        </li>
+        <li>
+          <a onclick="hideNavBar()" href="../index.html#contact">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Main-->
+    <div class="container">
+      <aside>
+        <h2>CSS 3</h2>
+        <ul>
+          <li>
+            <a href="css_entrance.html">Úvod </a>
+          </li>
+          <li>
+            <a href="css_reset.html" class="openedLink"
+              >Reset
+              <div class="dot"></div>
+            </a>
+          </li>
+          <li>
+            <a href="css_colorsBackgrounds.html">Barvy a pozadí </a>
+          </li>
+          <li>
+            <a href="css_border.html">Ohraničení</a>
+          </li>
+          <li>
+            <a href="css_marginPadding.html">Odsazení</a>
+          </li>
+          <li>
+            <a href="css_elementSize.html">Velikost prvku</a>
+          </li>
+          <li>
+            <a href="css_workWithText.html">Práce s textem</a>
+          </li>
+          <li>
+            <a href="css_units.html">Jednotky</a>
+          </li>
+          <li>
+            <a href="css_psedoClasses.html">Pseudotřídy</a>
+          </li>
+          <li>
+            <a href="css_basicAnimations.html">Jednoduché animace</a>
+          </li>
+    
+          <li>
+            <a href="css_position.html">Pozicování</a>
+          </li>
+          <li>
+            <a href="css_flex.html">Flex</a>
+          </li>
+          <li>
+            <a href="css_grid.html">Grid</a>
+          </li>
+
+         
+        </ul>
+      </aside>
+      <main>
+        <h1>Reset</h1>
+        <p class="text">
+          Než začneme psát naše styly, tak musíme použít jejich reset. Reset
+          můžeme buď naimportovat do hlavičky a nebo můžeme kód ze stránky
+          zkopírovat do našich stylů. Já doporučuji importovat do hlavičky,
+          neboť je kód poté o pár řádků kratší a tím pádem přehlednější.
+        </p>
+        <p class="text">
+          Reset mění vlastnosti některých tagů na jejich základní hodnoty. Lépe
+          se poté se styly pracuje.
+        </p>
+
+        <h2 class="heading">Link na reset</h2>
+        <p class="text">
+          Na internetu je k dispozici celá řada resetů. Je naprosto jedno, který
+          si vyberete. Já používám tento:
+          <b>https://meyerweb.com/eric/tools/css/reset/reset.css</b>. Tento link
+          poté stačí naimportovat do hlavičky stejně, jako jsme linkovali styly
+          z nějakého souboru.
+        </p>
+      </main>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <p class="smallText footerPadding">&copy; 2021 Likeedu</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="../js/js.js"></script>
+  </body>
+</html>

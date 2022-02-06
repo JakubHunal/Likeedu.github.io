@@ -1,112 +1,153 @@
 <!DOCTYPE html>
 <html lang="cs">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="shortcut icon" type="image/jpg" href="../img/favicon.png" />
 
     <title>Likeedu</title>
-</head>
+  </head>
 
-<body id="course" class="htmlCourse">
+  <body id="course" class="htmlCourse">
     <!--Navigation-->
     <nav>
-        <a href="../index.html" class="logo"><img src="../img/whiteLogo.svg" alt="" /></a>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-        <ul>
-            <li>
-                <a onclick="hideNavBar()" href="../courses.html">Kurzy</a>
-            </li>
-            <li>
-                <a onclick="hideNavBar()" href="../index.html#aboutUs">O nás</a>
-            </li>
-            <li>
-                <a onclick="hideNavBar()" href="../index.html#contact">Kontakt</a>
-            </li>
-        </ul>
+      <a href="../index.html" class="logo"
+        ><img src="../img/whiteLogo.svg" alt=""
+      /></a>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul>
+        <li>
+          <a onclick="hideNavBar()" href="../courses.html">Kurzy</a>
+        </li>
+        <li>
+          <a onclick="hideNavBar()" href="../index.html#aboutUs">O nás</a>
+        </li>
+        <li>
+          <a onclick="hideNavBar()" href="../index.html#contact">Kontakt</a>
+        </li>
+      </ul>
     </nav>
 
     <!--Main-->
     <div class="container">
-        <aside>
-            <h2>HTML 5</h2>
-            <ul>
-                <li>
-                    <a href="html_entrance.html">Úvod </a>
-                </li>
-                <li>
-                    <a href="html_structure.html" class="openedLink">Základní struktura
+      <aside>
+        <h2>HTML 5</h2>
+        <ul>
+          <li>
+            <a href="html_entrance.html">Úvod </a>
+          </li>
+          <li>
+            <a href="html_structure.html" class="openedLink"
+              >Základní struktura
               <div class="dot"></div
             ></a>
-                </li>
-                <li>
-                    <a href="html_elements.html">Elementy a tagy</a>
-                </li>
-                <li>
-                    <a href="html_headings.html">Nadpisy</a>
-                </li>
-                <li>
-                    <a href="html_links.html">Odkazy</a>
-                </li>
-                <li>
-                    <a href="html_lists.html">Listy</a>
-                </li>
-                <li>
-                    <a href="html_classesIds.html">Třídy a ID</a>
-                </li>
-                <li>
-                    <a href="html_comments.html">Komentáře</a>
-                </li>
-                <li>
-                    <a href="html_imagesVideos.html">Obrázky a videa</a>
-                </li>
-                <li>
-                    <a href="html_specialChars.html">Speciální znaky</a>
-                </li>
-                <li>
-                    <a href="html_iconsFonts.html">Ikonky a fonty</a>
-                </li>
-                <li>
-                    <a href="">Konec</a>
-                </li>
-            </ul>
-        </aside>
-        <main>
-            <h1>Základní struktura HTML</h1>
+          </li>
+          <li>
+            <a href="html_elements.html">Elementy a tagy</a>
+          </li>
 
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
+          <li>
+            <a href="html_lists.html">Listy</a>
+          </li>
+          <li>
+            <a href="html_classesIds.html">Třídy a ID</a>
+          </li>
+          <li>
+            <a href="html_comments.html">Komentáře</a>
+          </li>
+          <li>
+            <a href="html_imagesVideos.html">Obrázky a videa</a>
+          </li>
+          <li>
+            <a href="html_specialChars.html">Speciální znaky</a>
+          </li>
+          <li>
+            <a href="html_iconsFonts.html">Ikonky a fonty</a>
+          </li>
 
-            <div class="quizVideo">
-                <div class="quiz">
-                    <a href="https://google.com">Kvíz</a>
-                </div>
-                <div class="video">
-                    <a href="https://youtube.com">Video</a>
-                </div>
-            </div>
-        </main>
+        </ul>
+      </aside>
+      <main>
+        <h1>Základní struktura HTML</h1>
+
+        <p class="text">
+          Základní struktura je něco bez čeho se naše webová stránka neobejde.
+          Každá webová stránka tuto základní strukturu musí nutně mít a nikdo
+          nesmí přeházet posloupnost jednotlivých HTML značek!
+        </p>
+        <p class="text">
+          V našem index souboru si tedy tuto základní strukturu vytvoříme. Nyní
+          přichází výhoda chytrého vývojové prostředí, jako je Visual Studio
+          Code, neboť stačí zadat příkaz <b>html:5</b>, odentrovat a struktura
+          se sama vytvoří. Všechny části této struktury si vysvětlíme.
+        </p>
+        <div class="oneImage">
+          <img src="../img/htmlStructure.png" alt="" />
+        </div>
+        <!--Části HTML struktury-->
+        <div class="list">
+          <h2 class="heading">Části HTML struktury</h2>
+          <ul>
+            <li>
+              <b>1. !DOCTYPE html:</b> značí, že se jedná o HTML5 dokument
+            </li>
+            <li>
+              <b>2. html:</b> značí, že se jedná o HTML zápis, zahrnujeme sem i
+              jazyk, který stránka používá
+            </li>
+            <li>
+              <b>3. head:</b> tzv. hlavička, do které se zapisují tzv. meta
+              značky, můžeme do ní importovat fonty, ikonky a spousty dalších
+            </li>
+            <li>
+              <b>4. meta:</b> touto značkou definujeme metadata (= data o
+              datech) naší stránky, např.: specifikujeme jakou sadu znaků
+              stránka používá, můžeme stránce udělit krátky popisek, uvést
+              autora stránky
+            </li>
+            <li>
+              <b>5. title:</b> tzv. titulek, hlavní název naší stránky, který se
+              uživatelům zobrazí jako jméno otevřené karty v našem webovém
+              prohlížeči
+            </li>
+            <li>
+              <b>6. body:</b> tzv. tělíčko, do kterého již tvoříme naši stránku,
+              všechny prvky stránky musí být v této značce
+            </li>
+          </ul>
+        </div>
+        <p class="text">
+          Nyní je čas si otestovat své znalosti v kvízu! Po absolvování kvízu se
+          můžeš pustit do další kapitoly s názvem Elementy a tagy!
+        </p>
+        <!--Kvíz a video-->
+        <div class="quizVideo">
+          <div class="quiz">
+            <a href="https://google.com">Kvíz</a>
+          </div>
+          <div class="video">
+            <a href="https://youtube.com">Video</a>
+          </div>
+        </div>
+      </main>
     </div>
 
     <!--Footer-->
     <footer>
-        <p class="smallText footerPadding">&copy; 2021 Likeedu</p>
+      <p class="smallText footerPadding">&copy; 2021 Likeedu</p>
     </footer>
 
     <!--JavaScript-->
     <script src="../js/js.js"></script>
-</body>
-
+  </body>
 </html>

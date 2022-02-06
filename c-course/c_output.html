@@ -50,8 +50,8 @@
                 </li>
                 <li>
                     <a href="c_output.html" class="openedLink">Výstup
-              <div class="dot"></div>
-            </a>
+                        <div class="dot"></div>
+                    </a>
                 </li>
                 <li>
                     <a href="c_input.html">Vstup</a>
@@ -65,76 +65,79 @@
                 <li>
                     <a href="c_colors.html">Barvy a jejich změna</a>
                 </li>
+                <li>
+                    <a href="c_conditions.html">Podmínky</a>
+                </li>
             </ul>
         </aside>
         <main>
             <h1>Výstup</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Základy konzolových aplikací jsou vstupy a výstupy (input a output). Vstupy načítají do proměnných
+                zadané hodnoty a výstupy naopak proměnné obrazují. Proměnnou můžeme označit také jako datový typ, který
+                má nějakou hodnotu (data). Později zjistíme, že toto označení je nepřesné, ale zatím si s tím nemusíme
+                lámat hlavu.
             </p>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <div class="list">
-                <div class="heading">
-                    Toto jsou základní jazyky, které se používají na webech:
-                </div>
-                <ul>
-                    <li>
-                        <span class="bold">Html:</span> je to značkovací jazyk, používáme ho k tvorbě webových stránek
-                    </li>
-                    <li>
-                        <span class="bold">Css:</span> jsou to kaskádové styly, používáme je k úpravě webových stránek
-                    </li>
-                    <li>
-                        <span class="bold">C#:</span> je to programovací jazyk pro tvorbu aplikací
-                    </li>
-                    <li>
-                        <span class="bold">Php:</span> je to programovací jazyk používaný na webech
-                    </li>
-                </ul>
-            </div>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
-            </p>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Pojďme si zkusit napsat první příklad, který vypíše do konzole větu „Dobrý den uživateli!“. Kurzorem se
+                přesuneme do metody Main (viz obrázek).
             </p>
             <div class="showOfCode">
-                <pre><code>.container {
-    width: 100%; //toto je šířka zařízení, pro které je to dělané
-    margin-top: 100px;
-    display: flex;
-    @include tablet() {
-    margin-top: 80px;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
-}</code></pre>
+                <pre><code>static void Main(string[] args)
+    {
+        //zde
+    }</code></pre>
             </div>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Začneme psát náš první příkaz, který bude vypadat takto: „Console.WriteLine();“ – viz obrázek. Počáteční
+                slovo „Console“ označuje, že se jedná o příkaz pro konzoli. Slova v programovacím jazyce C# oddělujeme
+                vždy tečkou. „WriteLine()“ je poté název metody pro vypsání konkrétního textu nebo nějaké proměnné. A na
+                konci příkazu je důležité mít středník, tím se ukončuje většina příkazů.
+            </p>
+            <div class="showOfCode">
+                <pre><code>static void Main(string[] args)
+    {
+        Console.Writeline();
+    }</code></pre>
+            </div>
+            <p class="text">
+                Nyní máme napsaný první příkaz, ale kdybychom nyní program spustili tlačítkem „Spustit“ v horní liště
+                Visual Studia (ostatní kompilátory mohou mít toto tlačítko jinde), tak se nic nestane – otevře se
+                konzole a hned se zavře. Je to tím, že kompilátor zpracoval celý kód, který mu sice říká, aby něco
+                vypsal, ale neví, co a tak nic nevypíše.
             </p>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi
-                tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla
-                est. In rutrum. Všechny naše kurzy jsou kompletně zdarma Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique libero. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est. In rutrum. Nulla est.
-                In rutrum. Nulla est. In rutrum.
+                Upřesnění metod se píše do závorek za nimi. Když chceme vypsat předem definovaný text, tak do závorek za
+                metodou vložíme uvozovky a do nich náš text. Po spuštění se ale program opět hned zavře. Je to tím, že
+                program sice náš příkaz provedl, ale hned se poté zavřel.
+            </p>
+            <p class="text">
+                Aby se konzolový program hned nezavřel, tak na konec kódu (tedy na druhý řádek pod náš příkaz) napíšeme
+                příkaz „Console.ReadLine();“. Tento příkaz zajistí, že se program nezavře hned, ale až po stisknutí
+                klávesy „Enter“ na klávesnici. Když poté program spustíme, tak nám vypíše naši větu „Dobrý den
+                uživateli!“ – viz obrázky. Po stisknutí klávesy „Enter“ se poté zavře.
+            </p>
+
+            <div class="showOfCode">
+                <pre><code>static void Main(string[] args)
+    {
+        Console.Writeline("Dobrý den uživateli!");
+        Console.Readline();
+    }</code></pre>
+            </div>
+            <div class="oneImage">
+                <img src="../img/c_showOfWriteLine.png" alt="">
+            </div>
+            <p class="text">
+                Před uvozovky také můžeme napsat takzvané modifikátory – tzn. znaky, které upravují vlastnosti zadaného
+                textu. Například zavináč „@“ nám způsobí, že se text na konci viditelného řádku zalomí a bude pokračovat
+                o řádek níže, v opačném případě by text pokračoval neustále dále doprava po jedno řádku.
+            </p>
+            <h2 class="heading">Cvičení</h2>
+
+            <p class="text">
+                Zkuste si napsat nebo zkopírovat nějaký text a ten do uvozovek se zavináčem před nimi vložit.
+                Text by se vám měl po řádcích zalamovat.
             </p>
             <div class="quizVideo">
                 <div class="quiz">

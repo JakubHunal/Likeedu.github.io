@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.png" />
+
+    <title>Likeedu</title>
+</head>
+
+<body id="course" class="cCourse">
+    <!--Navigation-->
+    <nav>
+        <a href="../index.html" class="logo"><img src="../img/whiteLogo.svg" alt="" /></a>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul>
+            <li>
+                <a onclick="hideNavBar()" href="../courses.html">Kurzy</a>
+            </li>
+            <li>
+                <a onclick="hideNavBar()" href="../index.html#aboutUs">O nás</a>
+            </li>
+            <li>
+                <a onclick="hideNavBar()" href="../index.html#contact">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Main-->
+    <div class="container">
+        <aside>
+            <h2>C&#35;</h2>
+            <ul>
+                <li>
+                    <a href="c_entrance.html">Úvod</a>
+                </li>
+                <li>
+                    <a href="c_environment.html">Prostředí</a>
+                </li>
+                <li>
+                    <a href="c_firstLook.html">První spuštění</a>
+                </li>
+                <li>
+                    <a href="c_output.html">Výstup</a>
+                </li>
+                <li>
+                    <a href="c_input.html">Vstup</a>
+                </li>
+                <li>
+                    <a href="c_typesOfVariables.html">Základní typy proměnných</a>
+                </li>
+                <li>
+                    <a href="c_workWithVariables.html">Práce s proměnnými</a>
+                </li>
+                <li>
+                    <a href="c_colors.html">Barvy a jejich změna
+                    </a>
+                </li>
+                <li>
+                    <a href="c_conditions.html" class="openedLink">Podmínky
+                        <div class="dot"></div>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <h1>Podmínky</h1>
+            <p class="text">
+                Základním typem podmínky je „if“, česky když. Když je splněna nějaká podmínka, tak bude následovat
+                nějaký kód, když podmínka splněna nebude, tak se nestane nic nebo bude následovat také nějaký kód.
+                Základní struktura podmínky vypadá takto:
+            </p>
+            <div class="showOfCode">
+                <pre><code>static void Main(string[] args)
+    {
+        if(podmínka){
+            //nějaký kód
+        }
+    }</code></pre>
+            </div>
+            <p class="text">
+                Podmínek může být také spojeno více pod sebe dohromady za použítí „else if“ – česky nebo když. Blok
+                podmínek vždy začíná jednou podmínkou „if“, poté následuje libovolný počet podmínek „else if“ a vše je
+                zakončeno „else“ – kód, který bude proveden, když nebude splněna ani jedna podmínka.
+            </p>
+            <div class="showOfCode">
+                <pre><code>static void Main(string[] args)
+    {
+        if(podmínka) {
+            //nějaký kód
+        }
+        else if(podmínka) {
+            //nějaký kód
+        }
+        else {
+            //nějaký kód
+        }
+ 
+    }</code></pre>
+            </div>
+            <p class="text">
+                Podmínka může mít spoustu podob – například pokud se nějaká proměnná rovná „=“ jiné proměnné či
+                definovanému číslo/textu. Dále číselné proměnné můžeme například porovnávat za pomocí znaků větší „&gt;“
+                a
+                menší „&lt;“. Pokud chceme vytvořit podmínku, že se nějaká proměnná něčemu nerovná, tak použijeme před
+                znakem rovná se vykřičník „!=“. Příklady: </p>
+            <div class="quizVideo">
+                <div class="quiz">
+                    <a href="https://google.com">Kvíz</a>
+                </div>
+                <div class="video">
+                    <a href="https://youtube.com">Video</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p class="smallText footerPadding">&copy; 2021 Likeedu</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="../js/js.js"></script>
+</body>
+
+</html>

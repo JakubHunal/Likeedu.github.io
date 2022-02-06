@@ -243,12 +243,6 @@ nav ul li a {
   position: relative;
 }
 
-@media (max-width: 600px) {
-  nav ul li a {
-    font-size: 1.5rem;
-  }
-}
-
 nav ul li a:after {
   content: "";
   position: absolute;
@@ -373,7 +367,6 @@ main {
 #course .showOfCode {
   background-color: whitesmoke;
   width: 70%;
-  max-height: 500px;
   margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
@@ -394,7 +387,7 @@ main {
 
 #course .showOfCode pre {
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #course .quizVideo {
@@ -475,14 +468,9 @@ main {
   }
 }
 
-#course .list .heading {
-  text-align: start;
-  text-decoration: underline;
-}
-
 #course .list ul {
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 28px;
   text-align: start;
   list-style-type: disc;
 }
@@ -495,15 +483,12 @@ main {
 
 #course .list ul li {
   margin-top: 15px;
-}
-
-#course .list ul li .bold {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 #course .oneImage {
   margin-top: 50px;
-  width: 100%;
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -532,7 +517,6 @@ main {
 
 #course .twoImages img {
   width: 100%;
-  height: 100%;
 }
 
 #course .button.download {
@@ -541,6 +525,14 @@ main {
   margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
+}
+
+#course .heading {
+  margin-top: 50px;
+}
+
+#course b {
+  font-weight: bold;
 }
 
 /*4-pages*/
@@ -1117,7 +1109,7 @@ main {
 #course .container aside {
   width: 300px;
   height: calc(100vh - 180px);
-  overflow-y: scroll;
+  overflow-y: auto;
   position: sticky;
   top: 100px;
   background-color: whitesmoke;

@@ -11,7 +11,7 @@
         aside {
             width: 300px;
             height: calc(100vh - 180px);
-            overflow-y: scroll;
+            overflow-y: auto;
             position: sticky;
             top: 100px;
             background-color: $whiteSmoke;
